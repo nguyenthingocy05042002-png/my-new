@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Mobile Shop - Cửa hàng điện thoại</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            color: #333;
+        }
+
+        .container {
+            width: 960px;
+            margin: 0 auto;
+            background-color: #ffffff;
+        }
+
+        .clear {
+            clear: both;
+        }
+
+        /* 2. Header */
+        .header {
+            background-color: #2c3e50;
+            padding: 20px;
+        }
+
+        .logo {
+            float: left;
+            color: #ffffff;
+            font-size: 28px;
+        }
+
+        .menu {
+            float: right;
+            list-style: none;
+            margin-top: 6px;
+        }
+
+        .menu li {
+            display: inline-block;
+            margin-left: 20px;
+        }
+
+        .menu li a {
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 16px;
+        }
+
+        .menu li a:hover {
+            color: #f39c12;
+        }
+
+        /* 3. Banner */
+        .banner {
+            background-color: #f39c12;
+            color: #ffffff;
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        .banner h2 {
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+
+        .banner p {
+            font-size: 16px;
+            margin-bottom: 24px;
+        }
+
+        .btn {
+            display: inline-block;
+            background-color: #2c3e50;
+            color: #ffffff;
+            padding: 10px 24px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        /* 4. Danh sách sản phẩm */
+        .content {
+            padding: 20px 0;
+        }
+
+        .title {
+            text-align: center;
+            color: #2c3e50;
+            margin-bottom: 20px;
+        }
+
+        .product {
+            float: left;
+            /* <-- THÊM DÒNG NÀY */
+            width: 300px;
+            margin: 10px;
+            border: 1px solid #dddddd;
+            padding: 15px;
+
+        }
+
+        text-align ce .product {
+            width: 300px;
+            margin: 10px;
+            border: 1px solid #dddddd;
+            padding: 15px;
+            text-align: center;
+        }
+
+        .product img {
+            width: 100%;
+        }
+
+        .product h3 {
+            font-size: 18px;
+            margin: 10px 0;
+        }
+
+        .price {
+            color: #e74c3c;
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .buy {
+            display: inline-block;
+            background-color: #e74c3c;
+            color:
+                #ffffff;
+            padding: 8px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .buy:hover {
+            background-color: #c0392b;
+        }
+
+        .product {
+            float: left;
+            width: 300px;
+            margin: 10px;
+            border: 1px solid #dddddd;
+            padding: 15px;
+            text-align:
+                center;
+            position: relative;
+            /* <-- THÊM DÒNG NÀY */
+        }
+
+        .badge {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            color: #ffffff;
+            padding: 5px 10px;
+        }
+
+
+        /* 5. Nhãn "Mới" */
+        .badge {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            background-color: #27ae60;
+            color: #ffffff;
+            padding: 5px 10px;
+            font-size: 14px;
+        }
+
+        /* 6. Footer */
+        .footer {
+            background-color: #2c3e50;
+            color: #ffffff;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+
+
+
+    </div>
+</body>
+
+</html>
+<!-- ===== PHẦN ĐẦU TRANG ===== -->
+<div class="header">
+    <h1 class="logo">Mobile Shop</h1>
+    <ul class="menu">
+        <li><a href="#">Trang chủ</a></li>
+        <li><a href="#">Sản phẩm</a></li>
+        <li><a href="#">Giới thiệu</a></li>
+        <li><a href="#">Liên hệ</a></li>
+    </ul>
+    <div class="clear"></div>
+</div>
+<!-- ===== BANNER ===== -->
+<div class="banner">
+    <h2>Khuyến mãi tháng 11</h2>
+    <p>Giảm giá đến 30% cho tất cả các dòng điện thoại</p>
+    <a href="#" class="btn">Xem ngay</a>
+</div>
+<!-- ===== DANH SÁCH SẢN PHẨM ===== -->
+<div class="content">
+    <h2 class="title">Sản phẩm nổi bật</h2>
+
+    <div class="product">
+        <span class="badge">Mới</span>
+        <img src="../images/sp1.png" alt="Điện thoại A1">
+        <h3>Điện thoại A1</h3>
+        <p class="price">5.990.000 đ</p>
+        <a href="#" class="buy">Mua ngay</a>
+    </div>
+
+    <div class="product">
+        <img src="../images/sp2.png" alt="Điện thoại B2">
+        <h3>Điện thoại B2</h3>
+        <p class="price">7.490.000 đ</p>
+        <a href="#" class="buy">Mua ngay</a>
+    </div>
+
+    <div class="product">
+        <img src="../images/sp3.png" alt="Điện thoại C3">
+        <h3>Điện thoại C3</h3>
+        <p class="price">3.290.000 đ</p>
+        <a href="#" class="buy">Mua ngay</a>
+    </div>
+
+    <div class="product">
+        <img src="../images/sp4.png" alt="Điện thoại D4">
+        <h3>Điện thoại D4</h3>
+        <p class="price">9.990.000 đ</p>
+        <a href="#" class="buy">Mua ngay</a>
+    </div>
+
+    <div class="product">
+        <img src="../images/sp5.png" alt="Điện thoại E5">
+        <h3>Điện thoại E5</h3>
+        <p class="price">4.590.000 đ</p>
+        <a href="#" class="buy">Mua ngay</a>
+    </div>
+
+    <div class="product">
+        <img src="../images/sp6.png" alt="Điện thoại F6">
+        <h3>Điện thoại F6</h3>
+        <p class="price">6.290.000 đ</p>
+        <a href="#" class="buy">Mua ngay</a>
+    </div>
+    <div class="clear"></div>
+</div> <!-- đóng .content -->
+<!-- ===== CHÂN TRANG ===== -->
+<div class="footer">
+    <p>&copy; 2026 Mobile Shop. Địa chỉ: 123 Đường ABC, TP. Hồ Chí Minh</p>
+</div>
